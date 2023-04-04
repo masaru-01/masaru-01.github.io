@@ -463,6 +463,22 @@ a img{
   cursor: pointer;
 }
 
+.skill-desc {
+  flex-basis: calc(100% - 75px - 30px);
+  text-align: center;
+}
+
+.skill-desc-title {
+  margin-bottom: 3px;
+  font-size: 26px;
+  padding: 24px;
+  font-weight: bold;
+  margin: auto;
+}
+
+.skill-desc-table { 
+  margin: auto;
+}
 
 /**** Mobile layout ****/
 @media (max-width: 900px) {

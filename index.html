@@ -22,27 +22,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Introducing Lollipop, a sweet new take on Android.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <title>Masaru's portfolio</title>
+    <title>Masaru portfolio</title>
 
     <!-- Page styles -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="css/material.min.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.4.0-web/css/fontawesome.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.4.0-web/css/solid.css">
+    <link rel="stylesheet" href="./fontawesome-free-6.4.0-web/css/regular.css">
   </head>
   <body>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
 
       <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
         <div class="mdl-layout__header-row">
-          <span class="mdl-layout-title">
-            Masaru Yokota
+          <span class="mdl-layout-title logo-font">
+            Masaru Yokota portfolio
           </span>
-          <!-- Add spacer, to align navigation to the right in desktop -->
-          <div class="android-header-spacer mdl-layout-spacer"></div>
-          <!-- Navigation -->
-          <div class="android-navigation-container">
-          </div>
           <button class="android-more-button mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect" id="more-button">
             <i class="material-icons"></i>
           </button>
@@ -57,164 +55,187 @@
           Masaru
         </span>
         <nav class="mdl-navigation">
-          <a class="mdl-navigation__link" href="">Phones</a>
-          <a class="mdl-navigation__link" href="">Tablets</a>
-        
+          <a class="mdl-navigation__link" href="#profile">PROFILE</a>
+          <a class="mdl-navigation__link" href="#skills">SKILLS</a>
+          <a class="mdl-navigation__link" href="#works">WORKS</a>
         </nav>
       </div>
 
       <div class="android-content mdl-layout__content">
-        <a name="top"></a>
         <div class="android-be-together-section mdl-typography--text-center">
-          <div class="logo-font android-slogan">be together. not the same.</div>
-          <div class="logo-font android-sub-slogan">welcome to android... be yourself. do your thing. see what's going on.</div>
-          <div class="logo-font android-create-character">
-            <a href=""><img src="images/andy.png"> create your android character</a>
-          </div>
-          <a href="#screens">
-            <button class="android-fab mdl-button mdl-button--colored mdl-js-button mdl-button--fab mdl-js-ripple-effect">
-              <i class="material-icons">expand_more</i>
-            </button>
-          </a>
-        </div>
-        <div class="android-screen-section mdl-typography--text-center">
-          <a name="screens"></a>
-          <div class="mdl-typography--display-1-color-contrast">Powering screens of all sizes</div>
-          <div class="android-screens">
-            <div class="android-wear android-screen">
-              <a class="android-image-link" href="">
-                <img class="android-screen-image" src="images/wear-silver-on.png">
-                <img class="android-screen-image" src="images/wear-black-on.png">
-              </a>
-              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href="">Android Wear</a>
-            </div>
-            <div class="android-phone android-screen">
-              <a class="android-image-link" href="">
-                <img class="android-screen-image" src="images/nexus6-on.jpg">
-              </a>
-              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href="">Phones</a>
-            </div>
-            <div class="android-tablet android-screen">
-              <a class="android-image-link" href="">
-                <img class="android-screen-image" src="images/nexus9-on.jpg">
-              </a>
-              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href="">Tablets</a>
-            </div>
-            <div class="android-tv android-screen">
-              <a class="android-image-link" href="">
-                <img class="android-screen-image" src="images/tv-on.jpg">
-              </a>
-              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase" href="">Android TV</a>
-            </div>
-            <div class="android-auto android-screen">
-              <a class="android-image-link" href="">
-                <img class="android-screen-image" src="images/auto-on.jpg">
-              </a>
-              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase mdl-typography--text-left" href="">Coming Soon: Android Auto</a>
-            </div>
+          <!-- <div class="logo-font android-slogan">Masaru Yokota </div> -->
+          <div class="logo-font android-slogan" id="profile">PROFILE</div>
+          <!-- <div class="logo-font android-create-character"> -->
+          <div class="logo-font android-sub-slogan">
+            はじめまして。1995年生まれの28歳、社会人4年目アナリストのマサルと申します。<br><br>
+            新卒では大手メーカーに開発職として入社し、アフターサービス向上に関する技術開発やシステム開発に携わりました。<br><br>
+            具体的には、製造した機器に搭載されているセンサデータや故障発生時のトラブルデータの収集、分析、可視化を行い、
+            必要な前処理を検討したり、機械学習モデルを構築しております。<br><br>
+            ただ、自分で分析を進めるにつれて、
+            「データ分析の視点をもっと上流から入れ込んで、ユーザと一緒に問いを作っていきたい！」「より幅広いデータに触れてみたい」と思い、転職を決意。
+            2023年4月現在、転職活動中です。
           </div>
         </div>
-        <div class="android-wear-section">
-          <div class="android-wear-band">
-            <div class="android-wear-band-text">
-              <div class="mdl-typography--display-2 mdl-typography--font-thin">The best of Google built in</div>
-              <p class="mdl-typography--headline mdl-typography--font-thin">
-                Android works perfectly with your favourite apps like Google Maps,
-                Calendar and YouTube.
-              </p>
-              <p>
-                <a class="mdl-typography--font-regular mdl-typography--text-uppercase android-alt-link" href="">
-                  See what's new in the Play Store&nbsp;<i class="material-icons">chevron_right</i>
-                </a>
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="android-customized-section">
-          <div class="android-customized-section-text">
-            <div class="mdl-typography--font-light mdl-typography--display-1-color-contrast">Customised by you, for you</div>
-            <p class="mdl-typography--font-light">
-              Put the stuff that you care about right on your home screen: the latest news, the weather or a stream of your recent photos.
-              <br>
-              <a href="" class="android-link mdl-typography--font-light">Customise your phone</a>
-            </p>
-          </div>
-          <div class="android-customized-section-image"></div>
-        </div>
-        <div class="android-more-section">
-          <div class="android-section-title mdl-typography--display-1-color-contrast">More from Android</div>
+        <div class="android-more-section mdl-typography--text-center">
+          <div class="logo-font android-slogan" id="skills">SKILLS</div>
           <div class="android-card-container mdl-grid">
-            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+            <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">スキル</h3>
+                <p>データ活用を起点としたプロジェクトの経験があります。
+                </p>
+                <table class="table table-borderless skill-desc-table">
+                  <thead>
+                    <tr>
+                      <th scope="col">フェーズ</th>
+                      <th scope="col">経験年数</th>
+                      <th scope="col">レベル</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">テーマ立案</th>
+                      <td>6か月</td>
+                      <td><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-regular fa-star"></i><i class="fa-sharp fa-regular fa-star"></i></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">データ収集・処理</th>
+                      <td>1年</td>
+                      <td><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-regular fa-star"></i></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">モデル解析・可視化</th>
+                      <td>1年</td>
+                      <td><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-regular fa-star"></i></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">概念検証</th>
+                      <td>1年</td>
+                      <td><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-regular fa-star"></i></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">言語</h3>
+                <p>データ処理、分析、モデル開発時にはpythonを使っています。フロント系言語は現場検証用システム開発時に使用しました。</p>
+                <table class="table table-borderless skill-desc-table">
+                  <thead>
+                    <tr>
+                      <th scope="col">技術</th>
+                      <th scope="col">経験年数</th>
+                      <th scope="col">スキル</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">Python</th>
+                      <td>3年</td>
+                      <td><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">HTML/CSS</th>
+                      <td>1年</td>
+                      <td><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-regular fa-star"></i><i class="fa-sharp fa-regular fa-star"></i></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">Javascript</th>
+                      <td>1年</td>
+                      <td><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-regular fa-star"></i><i class="fa-sharp fa-regular fa-star"></i></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+              <div class="skill-desc">
+                <h3 class="skill-desc-title">使用ライブラリ</h3>
+                <p>データ分析や機械学習/AI開発で用いられる基本的なpythonフレームワーク(FW)は使用経験があります。データ解析やモデル開発、可視化ダッシュボード作成で使用しました。
+                </p>
+                <table class="table table-borderless skill-desc-table">
+                  <thead>
+                    <tr>
+                      <th scope="col">技術</th>
+                      <th scope="col">経験年数</th>
+                      <th scope="col">スキル</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">scikit-learn</th>
+                      <td>2年</td>
+                      <td><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-regular fa-star"></i></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">TensorFlow</th>
+                      <td>2年</td>
+                      <td><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-regular fa-star"></i></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">plotly</th>
+                      <td>2年</td>
+                      <td><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-regular fa-star"></i></td>
+                    </tr>
+                    <tr>
+                      <th scope="row">streamlit</th>
+                      <td>2年</td>
+                      <td><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-regular fa-star"></i></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="android-more-section mdl-typography--text-center">
+          <div class="logo-font android-slogan" id="works">WORKS</div>
+          <div class="android-card-container mdl-grid">
+            <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
               <div class="mdl-card__media">
-                <img src="images/more-from-1.png">
+                <img src="images/herbarium.jpg">
               </div>
               <div class="mdl-card__title">
-                 <h4 class="mdl-card__title-text">Get going on Android</h4>
+                 <h4 class="mdl-card__title-text">Herbarium 2020</h4>
               </div>
               <div class="mdl-card__supporting-text">
-                <span class="mdl-typography--font-light mdl-typography--subhead">Four tips to make your switch to Android quick and easy</span>
+                <span class="mdl-typography--font-light mdl-typography--subhead">
+                  Kaggleのコンペティションの一つ。テーマは博物館の植物標本の画像を約32000のカテゴリのいずれかに分類するタスク。
+                  画像データのみではなく、付属していたテーブルデータの存在を突き止め、中間ラベルとして用いることで大きく精度を向上できた。
+                </span>
               </div>
               <div class="mdl-card__actions">
-                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
-                   Make the switch
+                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="https://github.com/masaru-01/Cassava-Leaf-Disease-Classification">
+                   Veiw on GitHub
                    <i class="material-icons">chevron_right</i>
                  </a>
               </div>
             </div>
 
-            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+            <div class="mdl-cell mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
               <div class="mdl-card__media">
-                <img src="images/more-from-4.png">
+                <img src="images/cassava.jpg">
               </div>
               <div class="mdl-card__title">
-                 <h4 class="mdl-card__title-text">Create your own Android character</h4>
+                 <h4 class="mdl-card__title-text">Cassava Leaf Disease Classification</h4>
               </div>
               <div class="mdl-card__supporting-text">
-                <span class="mdl-typography--font-light mdl-typography--subhead">Turn the little green Android mascot into you, your friends, anyone!</span>
+                <span class="mdl-typography--font-light mdl-typography--subhead">
+                  Kaggleのコンペティションの一つ。テーマはウガンダで撮影されたキャッサバの葉の画像を４つの病気のいずれかまたは、健康な葉に分類するタスク。
+                  EfficientNetによってある程度の精度が得られたが、それ以降苦戦。原因は正解データの中にもラベリングの怪しいものが存在したためであった。
+                </span>
               </div>
               <div class="mdl-card__actions">
-                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
-                   androidify.com
+                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="https://github.com/masaru-01/Herbarium2020">
+                   view on GitHub
                    <i class="material-icons">chevron_right</i>
                  </a>
               </div>
             </div>
 
-            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
-              <div class="mdl-card__media">
-                <img src="images/more-from-2.png">
-              </div>
-              <div class="mdl-card__title">
-                 <h4 class="mdl-card__title-text">Get a clean customisable home screen</h4>
-              </div>
-              <div class="mdl-card__supporting-text">
-                <span class="mdl-typography--font-light mdl-typography--subhead">A clean, simple, customisable home screen that comes with the power of Google Now: Traffic alerts, weather and much more, just a swipe away.</span>
-              </div>
-              <div class="mdl-card__actions">
-                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
-                   Download now
-                   <i class="material-icons">chevron_right</i>
-                 </a>
-              </div>
-            </div>
-
-            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
-              <div class="mdl-card__media">
-                <img src="images/more-from-3.png">
-              </div>
-              <div class="mdl-card__title">
-                 <h4 class="mdl-card__title-text">Millions to choose from</h4>
-              </div>
-              <div class="mdl-card__supporting-text">
-                <span class="mdl-typography--font-light mdl-typography--subhead">Hail a taxi, find a recipe, run through a temple – Google Play has all the apps and games that let you make your Android device uniquely yours.</span>
-              </div>
-              <div class="mdl-card__actions">
-                 <a class="android-link mdl-button mdl-js-button mdl-typography--text-uppercase" href="">
-                   Find apps
-                   <i class="material-icons">chevron_right</i>
-                 </a>
-              </div>
-            </div>
           </div>
         </div>
 
