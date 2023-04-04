@@ -175,14 +175,14 @@ a img{
   height: 800px;
   width: auto;
   background-color: #f3f3f3;
-  background: url('images/slide01.jpg') center 30% no-repeat;
+  /* background: url('images/IMG_5150.jpg') center 30% no-repeat; */
   background-size: cover;
 }
 
 .logo-font {
   font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
   line-height: 1;
-  color: #767777;
+  color: #444444;
   font-weight: 500;
 }
 
